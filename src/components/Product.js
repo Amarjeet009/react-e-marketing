@@ -40,9 +40,9 @@ export default class Product extends Component {
 
           </ProductConsumer>
           {/* card-footer */}
-          <div className="card-footer d-flex justify-content-between">
+          <div className="card-footer d-flex justify-content-between ">
             <p className="align-self-center mb-0">{title}</p>
-            <h5 className="text-blue font-italic mb-0">
+            <h5 className="font-italic mb-0">
               <span className="mr-1"><i className="fas fa-dollar-sign" /></span>
               {price}
             </h5>
