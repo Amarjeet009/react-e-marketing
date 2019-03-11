@@ -1,0 +1,39 @@
+:root {
+  --mainBlue: #1c0361;
+  --lightblue: #03598b;
+  --mainWhite: #fafafa;
+  --mainBackground: #011749;
+  --mainDark: #052049;
+  --mainYellow: #ffa400;
+  --buttonHover: #3385ff;
+
+}
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Great Vibes', cursive;
+font-family: 'IBM Plex Serif', serif; */
+body {
+  font-family: 'Libre Baskerville', serif !important;
+  background:  var(--mainBackground) !important;
+  color:  var(--mainDark) !important;
+  font-size: 0.9rem !important;
+  font-weight: 350 !important;
+}
+
+.text-title {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+.text-blue {
+color: var(--mainWhite);
+}
+
+.text-bright {
+  color: var(--lightblue);
+}
+
+.h5, h5 {
+  font-size: 0.9rem !important;
+}
